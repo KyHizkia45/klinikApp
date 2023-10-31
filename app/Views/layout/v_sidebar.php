@@ -23,7 +23,7 @@
     </div>
   </div>
   <!-- Sidebar -->
-  <div class="sidebar " style="background-color:#16a085">
+  <div class="sidebar " style="background-color:#05829e">
     <!-- Sidebar user panel (optional) -->
 
     <!-- SidebarSearch Form -->
