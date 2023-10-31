@@ -1,7 +1,7 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
-  <a href="" class="brand-link " style="background-color:#16a085">
+  <a href="" class="brand-link " style="background-color:#05829e">
     <img src="<?= base_url() ?>/template/dist/img/logo.png" alt="logo" style="width: 220px;">
   </a>
 
@@ -23,7 +23,7 @@
     </div>
   </div>
   <!-- Sidebar -->
-  <div class="sidebar " style="background-color:#16a085">
+  <div class="sidebar " style="background-color:#05829e">
     <!-- Sidebar user panel (optional) -->
 
     <!-- SidebarSearch Form -->
