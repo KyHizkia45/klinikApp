@@ -22,12 +22,10 @@
   <div class="info mt-2 text-bold">
     <?php if ($query): ?>
       <a href="#" class="d-block text-dark"><?= $query->nm_user ?> (<?= session()->get('level'); ?>)</a>
-    <?php endif; ?>
+    </div>
   </div>
-</div>
-<!-- Sidebar -->
-<div class="sidebar" style="background-color:#05829e">
-
+  <!-- Sidebar -->
+  <div class="sidebar " style="background-color:#16a085">
     <!-- Sidebar user panel (optional) -->
 
     <!-- SidebarSearch Form -->
