@@ -13,17 +13,21 @@
   // dd($query);
   ?>
   <!-- Query -->
-
-  <div class="user-panel pb-3 d-flex bg-white">
-    <div class="image">
-      <!-- <img src="<?= base_url() ?>/img/<?= $query->foto ?>" class="img-circle elevation-2 mt-2" alt="User Image" /> -->
-    </div>
-    <div class="info mt-2 text-bold">
-      <a href="#" class="d-block text-dark"><?= $query->nm_user ?> (<?= session()->get('level'); ?>)</a>
-    </div>
+<div class="user-panel pb-3 d-flex bg-white">
+  <div class="image">
+    <?php if ($query && $query->foto): ?>
+      <img src="<?= base_url() ?>/img/<?= $query->foto ?>" class="img-circle elevation-2 mt-2" alt="User Image" />
+    <?php endif; ?>
   </div>
-  <!-- Sidebar -->
-  <div class="sidebar " style="background-color:#05829e">
+  <div class="info mt-2 text-bold">
+    <?php if ($query): ?>
+      <a href="#" class="d-block text-dark"><?= $query->nm_user ?> (<?= session()->get('level'); ?>)</a>
+    <?php endif; ?>
+  </div>
+</div>
+<!-- Sidebar -->
+<div class="sidebar" style="background-color:#05829e">
+
     <!-- Sidebar user panel (optional) -->
 
     <!-- SidebarSearch Form -->
