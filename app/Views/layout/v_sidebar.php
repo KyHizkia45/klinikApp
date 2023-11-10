@@ -86,7 +86,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="<?= base_url(); ?>/Berita/dberita" class="nav-link">
+<!--                 <a href="<?= base_url(); ?>/Berita/dberita" class="nav-link"> -->
 <!--                   <i class="nav-icon fa fa-newspaper text-light"></i> -->
                   <p class="text-light">
 <!--                     Berita -->
@@ -94,7 +94,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="<?= base_url(); ?>/Fasilitas/dfasilitas" class="nav-link">
+<!--                 <a href="<?= base_url(); ?>/Fasilitas/dfasilitas" class="nav-link"> -->
 <!--                   <i class="nav-icon fa fa-book text-light"></i> -->
                   <p class="text-light">
 <!--                     Fasilitas -->
