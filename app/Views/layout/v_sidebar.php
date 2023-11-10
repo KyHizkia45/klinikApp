@@ -1,7 +1,7 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
-  <a href="" class="brand-link " style="background-color:#05829e">
+  <a href="" class="brand-link " style="background-color:#16a085">
     <img src="<?= base_url() ?>/template/dist/img/logo.png" alt="logo" style="width: 220px;">
   </a>
 
@@ -13,14 +13,12 @@
   // dd($query);
   ?>
   <!-- Query -->
-<div class="user-panel pb-3 d-flex bg-white">
-  <div class="image">
-    <?php if ($query && $query->foto): ?>
-      <img src="<?= base_url() ?>/img/<?= $query->foto ?>" class="img-circle elevation-2 mt-2" alt="User Image" />
-    <?php endif; ?>
-  </div>
-  <div class="info mt-2 text-bold">
-    <?php if ($query): ?>
+
+  <div class="user-panel pb-3 d-flex bg-white">
+    <div class="image">
+      <!-- <img src="<?= base_url() ?>/img/<?= $query->foto ?>" class="img-circle elevation-2 mt-2" alt="User Image" /> -->
+    </div>
+    <div class="info mt-2 text-bold">
       <a href="#" class="d-block text-dark"><?= $query->nm_user ?> (<?= session()->get('level'); ?>)</a>
     </div>
   </div>
